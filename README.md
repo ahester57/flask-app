@@ -9,7 +9,7 @@ your host machine.
 
     $ sudo iptables -I INPUT -p tcp --dport 5001 -j ACCEPT
 
-To upload a file visit <host>:5001/ in a web browser, or you can use curl.
+To upload a file visit host:5001/ in a web browser, or you can use curl.
 
     $ curl -X POST -F image=@<file_path> -F token="RDRDRD" <host>:5001/upload
 
