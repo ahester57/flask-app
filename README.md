@@ -1,7 +1,7 @@
 To run web app:
 
 	$ pip3 install flask sightengine
-    $ export FLASK_APP=app.py
+    $ export FLASK_APP=server.py
 	$ flask run --host 0.0.0.0 --port 5001
 
 To allow connections from other devices on you network, edit the iptables on
